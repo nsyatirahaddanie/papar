@@ -8,8 +8,6 @@ if (isset($_POST['submit'])) {
 
     echo "<p>Ayat ini mengandungi  $bil_perkataan perkataan</p>";
     echo "<p>Ayat ini mengandungi $bil_huruf huruf</p>";
-
-    $perkataan_terbalik = strrev($input_next);
     echo "<p>Ayat terbalik: $perkataan_terbalik</p>";
 }
 ?>

@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            textarea {
-                resize: none;
-            }
-        </style>
-    </head>
-    <body>
+<head>
+    <title>Index</title>
+</head>
+<body>
 
-    <p><label for="text_area">cerita tentang diri saya:</label></p>
-
-    <textarea id="text_area" name="text_area" rows="7" cols="50">
-        Nama saya ainin sofiya . Umur saya 20 tahun . Saya berasal dari pulau pinang. Saya mengambil diploma dalam bidang teknologi maklumat dan komunikasi.
-    </textarea>
-
+<h3>cerita tentang diri saya:</h3>
+<form method="POST" action="">
+    <textarea name="input_next" rows="7" cols="50" </textarea>
     <br>
-    <input type="button" name="simpan" value="simpan">
-
-    </body>
+    <input type="Submit" name="submit" value="simpan">
+</form>
+</body>
 </html>
 
 
