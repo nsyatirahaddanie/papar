@@ -6,8 +6,8 @@
 <body>
 
 <h3>cerita tentang diri saya:</h3>
-<form method="POST" action="">
-    <textarea name="input_next" rows="7" cols="50" </textarea>
+<form method="POST" action="papar.php">
+    <textarea name="input_next" rows="7" cols="50"></textarea>
     <br>
     <input type="submit" name="submit" value="simpan">
 </form>
