@@ -9,7 +9,7 @@
 <form method="POST" action="">
     <textarea name="input_next" rows="7" cols="50" </textarea>
     <br>
-    <input type="Submit" name="submit" value="simpan">
+    <input type="submit" name="submit" value="simpan">
 </form>
 </body>
 </html>
